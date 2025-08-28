@@ -1,0 +1,5 @@
+## Interface: 30300
+## Title: CCQi |cFFFF8080 ChromieCraft QoL Improved |r
+## Notes: Disable annoying battleground announcements and set default exp rate to 3.
+## Author: Arteezy
+ChromieCraftQoLImproved.lua
