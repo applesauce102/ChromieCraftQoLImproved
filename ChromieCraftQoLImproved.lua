@@ -7,7 +7,7 @@ frame:SetScript("OnEvent", function(self, event, ...)
 	-- SendChatMessage(".weekendxp rate 2", "SAY")
 	--   SendChatMessage(".weekendxp config", "SAY")
 	SendChatMessage(".set ann bg off", "SAY")
-
+	SendChatMessage(".set ann arena off", "SAY")
 	-- Display a message in the chat log to confirm the addon loaded
 	print("loaded CCQi")
 
