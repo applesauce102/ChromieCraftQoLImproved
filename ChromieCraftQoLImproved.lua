@@ -8,6 +8,11 @@ frame:SetScript("OnEvent", function(self, event, ...)
 	--   SendChatMessage(".weekendxp config", "SAY")
 	SendChatMessage(".set ann bg off", "SAY")
 	SendChatMessage(".set ann arena off", "SAY")
+	-- /script SetChatWindowSize(1, 24)
+	SendChatMessage("/script SetChatWindowSize(1, 22", "SAY")
+	SendChatMessage("/script SetChatWindowSize(2, 22", "SAY")
+	SendChatMessage("/script SetChatWindowSize(3, 22", "SAY")
+	SendChatMessage("/script SetChatWindowSize(4, 22", "SAY")
 	-- Display a message in the chat log to confirm the addon loaded
 	print("loaded CCQi")
 
